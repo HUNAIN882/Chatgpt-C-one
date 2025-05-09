@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bot">
+    <h4>Chat Bot</h4>
+  </div>
+  <div id="chat-container">
+    <div id="chat-header">Chatbot</div>
+    <div id="messages">
+      <!-- Messages will be displayed here -->
+    </div>
+    <div id="input-container">
+      <input type="text" id="input" placeholder="Type a message..." />
+      <button id="send-btn">Send</button>
+    </div>
+  </div>
+      <script src="/socket.io/socket.io.js"></script>
+
+    <script src="server.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
